@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.cnox{
+	width: 800px;
+	height: 300px;
+	margin: 100px auto;
+	position: relative;
+}
+.child{
+	width:auto;
+	height:100px;
+	background-color:#20B2AA;
+	float:left;
+	font-size:100px;
+	padding:20px;
+	margin:60px 0;
+	color:#fff;
+}
+@keyframes anim1 {
+  from {transform:translate(0,0px)}
+  to   {transform:translate(337px, 0px)}
+}
+@keyframes anim2 {
+  from {transform:translate(0px,-500px)}
+  to   {transform:translate(0px, 0px)}
+}
+@keyframes anim3 {
+  from{transform:translate(0px,355px)
+  }
+  to{
+  	transform:translate(0px, 0px)
+  }
+}
+@keyframes anim4 {
+  from{
+	transform:translate(0,0)
+  }
+  to{
+	transform:translate(-337px, 0px)
+  }
+}
+@keyframes anim5 {
+  from{
+  	transform:rotateY(0deg)
+  }
+  to{
+	transform:rotateY(360deg)
+  }
+}
+@keyframes anim6 {
+  from{
+  	transform:rotateX(0)
+  }
+  to{
+  	transform:rotateX(360deg)
+  }
+}
+#block1{
+	animation: anim1 4s;
+}
+#block2{
+	animation: anim2 4s;
+}
+#block3{
+	animation: anim3 4s;
+}
+#block4{
+	animation: anim4 4s;
+}
+#block5{
+	animation: anim5 4s;
+}
+#block6{
+	animation: anim6 4s;
+}
